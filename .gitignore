@@ -1,0 +1,51 @@
+# Binarios y ejecutables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Archivos generados por Go
+/vendor/
+/bin/
+/dist/
+/build/
+
+# Archivos de dependencias y módulos
+go.sum
+go.mod~
+
+# Archivos generados por herramientas
+docs/
+swagger.json
+swagger.yaml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos de desarrollo
+.idea/
+.vscode/
+*.code-workspace
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Test coverage
+coverage.out
+
+# Archivos de configuración de usuario
+.env
+.env.*
+
+# Archivos generados por swaggo/swag
+docs/swagger.json
+docs/swagger.yaml
+docs/docs.go
