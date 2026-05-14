@@ -40,5 +40,3 @@ func (s *ProductService) DeleteProduct(ctx context.Context, id string) error {
 func (s *ProductService) ListProducts(ctx context.Context) ([]model.Product, error) {
 	return s.repo.List(ctx)
 }
-
-var a int = 1
